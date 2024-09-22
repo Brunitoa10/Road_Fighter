@@ -40,7 +40,7 @@ public class Jugador extends Carrera {
     }
 
     public void chocar(Vehiculo v) {
-
+        v.ser_Chocado(this);
     }
 
     public void agregar_misil(Misil m) {
