@@ -28,15 +28,18 @@ public class Jugador extends Carrera {
     }
 
     public void ser_Chocado(Jugador j) {
-
+        if (this.mis_misiles != null) {
+            this.mis_misiles.afectar(j);
+            this.quitar_power_ups();
+        }
     }
 
     public void quitar_power_ups() {
-
+        this.mis_misiles = null;
     }
 
     public void juntar_power_up(PowerUp p) {
-
+        p.afectar(this);
     }
 
     public void chocar(Vehiculo v) {
