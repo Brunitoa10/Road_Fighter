@@ -1,9 +1,10 @@
 package Entidades.Obstaculo;
 
+import Entidades.Entidad;
 import Entidades.PowerUp.Misil;
 import Entidades.Vehiculo.Carrera.Jugador;
 
-public abstract class Obstaculo {
+public abstract class Obstaculo extends Entidad {
 
     protected float peso;
     protected float puntaje;

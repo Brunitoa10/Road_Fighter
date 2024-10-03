@@ -1,8 +1,9 @@
 package Entidades.Vehiculo;
 
+import Entidades.Entidad;
 import Entidades.Vehiculo.Carrera.Jugador;
 
-public abstract class Vehiculo {
+public abstract class Vehiculo extends Entidad {
 
     protected float velocidad;
     protected float peso;
