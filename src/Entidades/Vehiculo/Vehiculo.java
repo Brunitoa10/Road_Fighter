@@ -1,6 +1,6 @@
-package Vehiculo;
+package Entidades.Vehiculo;
 
-import Vehiculo.Carrera.Jugador;
+import Entidades.Vehiculo.Carrera.Jugador;
 
 public abstract class Vehiculo {
 

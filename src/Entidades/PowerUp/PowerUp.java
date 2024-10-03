@@ -1,6 +1,6 @@
-package PowerUp;
+package Entidades.PowerUp;
 
-import Vehiculo.Carrera.Jugador;
+import Entidades.Vehiculo.Carrera.Jugador;
 
 public abstract class PowerUp {
 

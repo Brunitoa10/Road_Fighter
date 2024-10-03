@@ -1,9 +1,9 @@
-package Vehiculo.Carrera;
+package Entidades.Vehiculo.Carrera;
 
-import Obstaculo.Obstaculo;
-import PowerUp.Misil;
-import PowerUp.PowerUp;
-import Vehiculo.Vehiculo;
+import Entidades.Obstaculo.Obstaculo;
+import Entidades.PowerUp.Misil;
+import Entidades.PowerUp.PowerUp;
+import Entidades.Vehiculo.Vehiculo;
 
 public class Jugador extends Carrera {
 

@@ -1,7 +1,7 @@
 package Ruta;
 
-import Obstaculo.Obstaculo;
-import Vehiculo.Transito.Transito;
+import Entidades.Obstaculo.Obstaculo;
+import Entidades.Vehiculo.Transito.Transito;
 
 public class Ruta {
 

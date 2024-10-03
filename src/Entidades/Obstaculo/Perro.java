@@ -1,13 +1,13 @@
-package Obstaculo;
+package Entidades.Obstaculo;
 
-import PowerUp.Misil;
-import Vehiculo.Carrera.Jugador;
+import Entidades.PowerUp.Misil;
+import Entidades.Vehiculo.Carrera.Jugador;
 
-public class Bache extends Obstaculo {
+public class Perro extends Obstaculo {
 
-    public Bache() {
-        peso = 0;
-        puntaje = -5;
+    public Perro() {
+        peso = 20;
+        puntaje = -50;
     }
 
     @Override
@@ -22,7 +22,7 @@ public class Bache extends Obstaculo {
 
     @Override
     public void afectar(Jugador j) {
-        j.quitar_power_ups();
+        j.set_velocidad(j.get_velocidad() / 2);
     }
 
     @Override

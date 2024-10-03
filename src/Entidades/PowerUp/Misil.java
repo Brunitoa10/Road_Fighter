@@ -1,7 +1,7 @@
-package PowerUp;
+package Entidades.PowerUp;
 
-import Obstaculo.Obstaculo;
-import Vehiculo.Carrera.Jugador;
+import Entidades.Obstaculo.Obstaculo;
+import Entidades.Vehiculo.Carrera.Jugador;
 
 public class Misil extends PowerUp {
 

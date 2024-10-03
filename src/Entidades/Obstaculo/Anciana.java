@@ -1,7 +1,7 @@
-package Obstaculo;
+package Entidades.Obstaculo;
 
-import PowerUp.Misil;
-import Vehiculo.Carrera.Jugador;
+import Entidades.PowerUp.Misil;
+import Entidades.Vehiculo.Carrera.Jugador;
 
 public class Anciana extends Obstaculo {
 

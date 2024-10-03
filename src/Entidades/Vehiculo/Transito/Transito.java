@@ -1,21 +1,24 @@
-package Vehiculo.Carrera;
+package Entidades.Vehiculo.Transito;
 
-import Vehiculo.Vehiculo;
+import Entidades.PowerUp.PowerUp;
+import Entidades.Vehiculo.Vehiculo;
+import Entidades.Vehiculo.Carrera.Jugador;
 
-public class Carrera extends Vehiculo {
+public class Transito extends Vehiculo {
 
-    protected int posicion;
+    protected PowerUp mi_power_up;
 
-    public Carrera(float v, float p, String pat) {
+    protected Transito(float v, float p, String pat) {
         super(v, p, pat);
     }
 
-    public void set_posicion(int p) {
-        posicion = p;
+    protected Transito(float v, float p, String pat, PowerUp po) {
+        super(v, p, pat);
+        mi_power_up = po;
     }
 
-    public int get_posicion() {
-        return posicion;
+    public float masa() {
+        return 6;
     }
 
     @Override

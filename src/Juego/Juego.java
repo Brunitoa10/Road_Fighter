@@ -1,7 +1,7 @@
 package Juego;
 
+import Entidades.Vehiculo.Carrera.Carrera;
 import Ruta.Ruta;
-import Vehiculo.Carrera.Carrera;
 
 public class Juego {
 

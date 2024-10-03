@@ -1,6 +1,6 @@
-package Vehiculo.Transito;
+package Entidades.Vehiculo.Transito;
 
-import PowerUp.PowerUp;
+import Entidades.PowerUp.PowerUp;
 
 public class Auto extends Transito {
 

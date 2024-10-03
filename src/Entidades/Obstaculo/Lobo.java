@@ -1,6 +1,6 @@
-package Obstaculo;
+package Entidades.Obstaculo;
 
-import Vehiculo.Carrera.Jugador;
+import Entidades.Vehiculo.Carrera.Jugador;
 
 public class Lobo extends Perro {
 
