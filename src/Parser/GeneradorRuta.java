@@ -6,26 +6,26 @@ import Juego.Silueta;
 import Powerups.Nafta;
 
 public class GeneradorRuta {
-	
+
 	protected FabricaEntidades fabrica_entidades;
-	
+
 	public GeneradorRuta(FabricaEntidades fabrica_entidades) {
 		this.fabrica_entidades = fabrica_entidades;
 	}
-	
+
 	public void cambiar_fabrica_entidades(FabricaEntidades fabrica_entidades) {
 		this.fabrica_entidades = fabrica_entidades;
 	}
-	
+
 	public Ruta generar_ruta(int numero) {
 		// To DO
 		return generar_ruta_harcoding(numero);
 	}
-	
+
 	protected Ruta generar_ruta_harcoding(int numero) {
 		String patente = "AAA-111";
 		float peso = 1;
-		
+
 		Silueta silueta = fabrica_entidades.get_silueta(numero);
 		Ruta ruta = new Ruta(silueta, numero);
 		ruta.agregar_jugador(fabrica_entidades.get_vehiculo_jugador(200, 75, peso, patente));

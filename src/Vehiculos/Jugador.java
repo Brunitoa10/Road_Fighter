@@ -14,7 +14,7 @@ public class Jugador extends Carrera implements EntidadJugador {
 	protected int combustible;
 	protected int puntaje;
 	protected Observer observer;
-	
+
 	public Jugador(Sprite sprite, int x, int y, float peso, String patente) {
 		super(sprite, x, y, peso, patente);
 		velocidad = 90;
@@ -22,8 +22,8 @@ public class Jugador extends Carrera implements EntidadJugador {
 		combustible = 100;
 		puntaje = 0;
 	}
-	
-	public List<Misil> get_misiles(){
+
+	public List<Misil> get_misiles() {
 		return mis_misiles;
 	}
 
@@ -34,7 +34,7 @@ public class Jugador extends Carrera implements EntidadJugador {
 	public int get_puntaje() {
 		return puntaje;
 	}
-	
+
 	public void registrar_observer(Observer observer) {
 		this.observer = observer;
 	}
